@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* Common */
+* {-webkit-text-size-adjust: none; box-sizing: border-box;}
+html, body {font-size: 62.5%; width: 100%; height: 100%; padding: 0px; margin: 0px; position: relative; background: #fff;}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,a,button,select {margin: 0; padding: 0;}
+body,div,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,button,select {-webkit-touch-callout: none; /* -webkit-user-select: none;  */-webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-appearance: none;}
+body,input,textarea,select,button,table {font-family: "Noto Sans KR", NotoSans, AppleGothic,sans-serif; font-size: 12px; color: #333; font-weight: 400; letter-spacing: -1px;}
+body {word-break: break-all;}
+img,fieldset,iframe {border: 0}
+img {vertical-align: top}
+li {list-style: none}
+em,address {font-style: normal}
+input,select,button {vertical-align: middle; outline: none;}
+button {cursor: pointer;}
+
+/* Common Add */
+a {color: #333; text-decoration: none;}
+a:hover,
+a:link,
+a:visited {text-decoration: none;}
+caption,legend,.blind {visibility: hidden; overflow: hidden; position: absolute; top: 0; left: -999em; width: 0; height: 0; font-size: 0; line-height: 0; text-align: left}
+caption {position: static}
+input {border-radius: 0px; -webkit-appearance: none;}
+input[type="text"],
+input[type="password"] {height: 22px; padding: 0 7px; border: 1px solid #d6d6d6; color: #333; line-height: 2em;}
+input[type="text"].readonly {border-top: 1px solid #bfc6cc; border-left: 1px solid #bfc6cc; border-right: 1px solid #d8dee3; border-bottom: 1px solid #d8dee3; background: #f1f3f4}
+/*input[type="text"]: focus,
+input[type="password"]: focus,
+select: focus {border: 1px solid #00a2e2; background: #edf6fb; color: #333}*/
+input[type="radio"] {*width: 13px; *height: 13px}
+select {height: 24px; *margin-top: 5px; padding: 0 0 0 4px; border: 1px solid #cccccc; line-height: 1.2em; color: #333}
+textarea {width: 98%; padding: 5px; border: 1px solid #cfcfcf; line-height: 1.5em}
+textarea:focus {outline: none;}
+table {/* border-collapse: collapse; */border-spacing: 0; line-height: 1.5em}
+hr {display: none}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+button {border: none;}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {display: block;}
+.hide {width: 1px; height: 1px; overflow: hidden; text-indent: -1000px; visibility: hidden;}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src:  url('../font/NotoSans-Regular.woff2') format('woff2'),
+        url('../font/NotoSans-Regular.woff') format('woff'),
+        url('../font/NotoSans-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src:  url('../font/NotoSans-Medium.woff2') format('woff2'),
+        url('../font/NotoSans-Medium.woff') format('woff'),
+        url('../font/NotoSans-Medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 800;
+  src:  url('../font/NotoSans-Bold.woff2') format('woff2'),
+        url('../font/NotoSans-Bold.woff') format('woff'),
+        url('../font/NotoSans-Bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 900;
+  src:  url('../font/NotoSans-Black.woff2') format('woff2'),
+        url('../font/NotoSans-Black.woff') format('woff'),
+        url('../font/NotoSans-Black.otf') format('opentype');
+}
+/* @font-face {
+  font-family: 'tvNEnjoystories';
+  font-weight: 500;
+  src:  url('../font/tvNEnjoystoriesM.woff2') format('woff2'),
+        url('../font/tvNEnjoystoriesM.woff') format('woff')
+} */
